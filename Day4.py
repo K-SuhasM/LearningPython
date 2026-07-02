@@ -11,6 +11,8 @@
 #     case (_) if z==(6,7):
 #         print("67")
 
+###########################################################################
+
 # x= int(input("Enter the number: "))
 # print("You chose the number ", x)
 # match x:
@@ -45,6 +47,8 @@
 # if x==9:
 #     print("Congratulations, its your birthmonth")
 
+########################################################################
+
 # name=input("Enter your name: ")
 # print("Your name is", name)
 # print("The letters in your name are")
@@ -60,6 +64,8 @@
 # for i in range(0, 10, 1):
 #     print(i)
 
+#########################################################
+
 # colors=["red", "pink", "blue"]
 # for i in colors:
 #     print(i)
@@ -68,6 +74,8 @@
 # while (i>0):
 #     i=i-1
 #     print(i)
+#
+##########################################################
 
 # i=int(input("Enter your number: "))
 # while i!=7:
@@ -75,11 +83,26 @@
 #     i=int(input("Enter your number: "))
 # else: print("Congratulations you won")  
 
-i=1
-for i in range(20):
-    print(i)
-    i=i+1
-    if i==10:
-        break
-    # else:
-    #     continue
+#########################################################
+
+# x=int(input("Enter the number you want the * table of: "))
+# def multiplication(z,x):
+#         z=x*(i+1)
+#         print(z)
+# x=5
+# multiplication(x)
+
+# for i in range(10):    
+#     z=x*(i+1)
+#     print(z)
+
+
+
+def add(x):
+    for i in range(11):
+        multiply=x*i
+        print(multiply)
+
+y=int(input("Enter your number:     "))
+add(y)
+ 
