@@ -125,14 +125,15 @@ def fibo(n):
         return 0
     elif n==1:
         return 1
+    elif n==2:
+        return 1
     else:
-        return (n-1) + (n-2)
+        return fibo(n-1) + fibo(n-2)
     
-print(fibo(5))
+# print(fibo(5))
 
+# 0 1 1 2 3 5 8 13
 
-
-
-
-
+for i in range(30):
+    print(fibo(i))
 
