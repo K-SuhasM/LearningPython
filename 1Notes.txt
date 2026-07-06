@@ -99,4 +99,15 @@ for i in range(6):
         break
 else:
     print("Sorry no i")
+##########################################
 
+a = input("Enter quit or a number: ")
+
+if a == "quit":
+    print("Correct")
+else:
+    try:
+        int(a)
+        print("Correct")
+    except ValueError:
+        raise ValueError("Input must be 'quit' or an integer.")
