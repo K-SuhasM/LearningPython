@@ -50,3 +50,4 @@
 #     except ValueError:
 #         raise ValueError("Input must be 'quit' or an integer.")
 
+print(__name__)
