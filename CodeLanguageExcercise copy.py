@@ -37,4 +37,4 @@ elif choice ==2:
         b= cod_ran[0:-1]
         final_word= a+b
     print(f"Your decoded word is \"{final_word}\".")
-()
+    
