@@ -111,3 +111,6 @@ else:
         print("Correct")
     except ValueError:
         raise ValueError("Input must be 'quit' or an integer.")
+
+for mark in enumerate(marks): print(mark)
+
