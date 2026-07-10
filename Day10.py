@@ -1,4 +1,4 @@
-# import os
+import os
 # # if not os.path.exists("New folder"):
 # # folder_path = "New folder/"
 
@@ -46,12 +46,19 @@
 # with open("text2.txt", "a") as f:
 #     f.write("helloooooooooooo9898989oooo\n")
 
-file = open("text.txt", "r")
+# file = open("text.txt", "r")
+# while True:
+#     line = file.readline()
+#     m1= line.split(",")[1]
+#     print(m1)
+#     if not line:
+#         break
+#     # print(line)
 
-while True:
-    line = file.readline()
-    m1= line.split(",")[1]
-    print(m1)
-    if not line:
-        break
-    # print(line)
+# f= open("text.txt", "a")
+# # print(f)
+# f.write("Helloo")
+# f.close()
+
+x=2
+print(x*x*x*x*x*x*x*x)
