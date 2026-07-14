@@ -113,4 +113,25 @@ else:
         raise ValueError("Input must be 'quit' or an integer.")
 
 for mark in enumerate(marks): print(mark)
+#######################################################################
+num = int(input("Enter a number: "))
 
+if num <= 1:
+    print("Not Prime")
+else:
+    for i in range(2, num):
+        if num % i == 0:
+            print("Not Prime")
+            break
+    else:
+        print("Prime")
+##########################################################
+def sumo(f,val):
+    return (f(val)+6)
+
+
+sum= lambda x: x*x*x*x*x*x*x*x
+print(sumo(sum,2))
+###########################################################
+# "is" exact location of a object in memory
+# "==" as compared to the object 
