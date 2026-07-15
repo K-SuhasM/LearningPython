@@ -4,4 +4,5 @@ while True:
     for i in num:
         i=int(i)
         numb.append(i)
-    print(sum(numb))
+    print(sum(numb))  
+    a=2s
