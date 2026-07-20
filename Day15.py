@@ -18,8 +18,3 @@
 
 
 
-inp= input("ENter: ")
-
-a=inp.split(" ")
-for i in a:
-    print(i)
