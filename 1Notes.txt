@@ -141,3 +141,10 @@ employee.no+=1
 ###########################################################
 inp= input("ENter: ")
 a=inp.split(" ")
+###########################################################
+# time.time() - Returns the current epoch time (seconds since 1970)
+# time.ctime() - Converts the time to a readable format (human-friendly)
+# time.sleep(sec) - Pauses the program for the given number of seconds
+# time.localtime() - Returns the local time as a struct (can extract hours, minutes, etc.)
+# time.strftime(fmt, time.localtime()) - Formats time using a specific pattern (e.g., "HH:MM:SS")
+# time.perf_counter() - High-precision timer for measuring performance or time intervals
