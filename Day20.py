@@ -55,4 +55,4 @@ Note: If your recovery does not show the LineageOS logo  , you accidentally boot
 
 x=re.finditer(pattern, text)
 for i in x:
-    print(i)
+    print(i) 
