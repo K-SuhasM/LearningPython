@@ -148,3 +148,18 @@ a=inp.split(" ")
 # time.localtime() - Returns the local time as a struct (can extract hours, minutes, etc.)
 # time.strftime(fmt, time.localtime()) - Formats time using a specific pattern (e.g., "HH:MM:SS")
 # time.perf_counter() - High-precision timer for measuring performance or time intervals
+###########################################################
+import asyncio
+async def task1():
+    print("Task 1 started")
+    await asyncio.sleep(10)
+    print("Task 1 finished")
+async def task2():
+    print("Task 2 started")
+    await asyncio.sleep(5)
+    print("Task 2 finished")
+async def main():
+    await asyncio.gather(
+        task1(), task2()
+    )
+asyncio.run(main())
